@@ -1,0 +1,61 @@
+{
+  "Hero": {
+    "title": "The Quantum Warlock",
+    "subtitle": "I entangle qubits and dientangle neural networks with black magic."
+  },
+  "Footer": {
+    "home": "Home",
+    "about": "About",
+    "docs": "Docs",
+    "made_with": " Made with Material Tailwind."
+  },
+  "About": {
+    "trad_edu": "Education",
+    "perso_edu": "Online courses",
+    "experience": "Experience",
+    "skills": "Skills",
+    "skills_desc": "I've put here a few logos of things I use, or ***get by with***. Don't worry too much about suspicious ones.",
+    "master": "Master of Science in Cybersecurity - Institut polytechnique de Paris (IPP).",
+    "master_desc": "To finish my engineering curriculum with a flourish. I'm planning to continue with a PhD in AI Security (INRIA?? 🐫🐫🐫)",
+    "master_link": "https://www.ip-paris.fr/en/education/masters/computer-science-program/master-year-2-cybersecurity",
+    "engineering_school": "Engineering Degree - Télécom SudParis",
+    "engineering_school_desc": "The French equivalent for universities to become engineers or researchers. Even though Télécom SudParis offers general scientific courses in mathematics and physics, there is a focus on telecommunication sciences (information theory, signal theory with our best friend Fourier, graph theory, etc.), which is ideal to learn cybersecurity. I participated to the research curriculum which allowed me to take the time to work on adversarial attacks on graph neural networks and model poisoning (CNN). I love graphs. I was also part of the cybersecurity club and the code club.",
+    "engineering_school_link": "https://www.telecom-sudparis.eu/en/",
+    "prepa": "Classe préparatoire MP* - Lycée Kleber",
+    "prepa_desc": "These are preparatory classes where we focus on learning mathematics and physics during two years. I was already fond of mathematics, but now I know: Mathematics is the way. (Especially graphs and algebraic topology <3).",
+    "prepa_link": "https://en.wikipedia.org/wiki/Classe_pr%C3%A9paratoire_aux_grandes_%C3%A9coles",
+    "coursera": "Deep Learning Specialization - Coursera",
+    "coursera_desc": "Who didn't follow Andrew's course? His courses are a blessing to everyone who wants to learn AI.",
+    "coursera_link": "https://www.coursera.org/specializations/deep-learning",
+    "ibm": "Quantum Courses - IBM Quantum Learning",
+    "ibm_desc": "If I become a teacher one day, I am very likely to take inspiration from the brillant John Watrous. His courses are comprehensible, interesting, complete, advanced, concise, just perfect. They are a very good complement to theorical quantum books.",
+    "ibm_link": "https://learning.quantum.ibm.com/",
+    "udemy": "Kubernetes Administrator - Udemy",
+    "udemy_desc": "Even though I unfortunately did not have the time to finish the course, it was a super hands-on course where I learned the basis of Kubernetes and the cloud in general, which clearly saves my life today.",
+    "udemy_link": "https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests",
+    "pyg": "PyTorch Geometric Tutorials - PyTorch Geometric",
+    "pyg_desc": "Long live the graph neural networks!",
+    "pyg_link": "https://github.com/AntonioLonga/PytorchGeometricTutorial",
+    "thales": "Research internship in AI security - Thales",
+    "thales_desc": "To start my gap year, I wanted to have an experience at the european leader of defence: Thales. The team is brillant, and I can fully focus on LLM attack and defence, which is exactly what I was looking for. I can even talk quantum telecommunications and graph theory, the dream...",
+    "thales_link": "https://www.thalesgroup.com/en",
+    "title": "Whoami?",
+    "subtitle": "Aka _the quantum warlock, the masked camel, the fanOfThermodynamics, the pipe and clouds engineer, the whale orchestra conductor_, or just **Sckathach**. I'm a french student at Télécom SudParis, and soon, a ML(4SEC) researcher!",
+    "connect": "Social media I use arranged in descending exponential order:",
+    "background": "Fond of mathematics and physics with a strong interest in computer sciences, I choose an engineering path, to be able to create things, and most importantly, break things. I started cybersecurity at Télécom SudParis, where I enjoyed crafting and toying with technology. However, I found that I needed more mathematics in my life. As I discovered AI security a bit earlier, I knew the best place for me was in the AI field: with loads of mathematics everywhere. And I can still create and destroy things! And there is also physics! And there are also graphs! That is why I am currently in a gap year, so I can tryhard mathematics and AI before my PhD.",
+    "interests": "My interests range from geopolitics to the depth of spinning blackholes, but I'm currently focused on the thing I find the craziest at the moment: **Mechanistic Interpretability**. "
+  },
+  "LocaleSwitcher": {
+    "locale": "{locale, select, fr {French} en {English} other {Unknown}}"
+  },
+  "Kards": {
+    "404_label": "CYBERSECURITY - AI - QUANTUM PHYSICS",
+    "404_title": "404 CTF - 2024 Edition",
+    "404_content": "I finally took the time to refactor, translate, and add a solution to each of my challenges, go check it out!",
+    "riyad_title": "(FRENCH ONLY FOR NOW) Riyadh - A simple oasis or the new centre of the world?",
+    "riyad_label": "GEOPOLITICS",
+    "riyad_content": "After years of doing analyses on my own, I've taken the plunge! I've written my first article on the Arab world, with a particular focus on Saudi Arabia and its Crown Prince Mohammed ben Salmane.",
+    "learn_more": "Learn more",
+    "download": "Download PDF"
+  }
+}

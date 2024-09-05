@@ -1,0 +1,61 @@
+{
+  "Hero": {
+    "title": "Le magicien quantique",
+    "subtitle": "Je superpose des qubits, et je désintrique des réseaux de neurones."
+  },
+  "Footer": {
+    "home": "Accueil",
+    "about": "A propos",
+    "docs": "Docs",
+    "made_with": " Fait avec Material Tailwind."
+  },
+  "About": {
+    "trad_edu": "Education",
+    "perso_edu": "Cours en ligne",
+    "experience": "Expérience",
+    "skills": "Compétences",
+    "skills_desc": "J'ai mis ici quelques logos de choses que j'utilise, ou avec lesquelles ***je me débrouille***. Ne vous préoccupez pas trop de ceux qui sont suspects.",
+    "master": "Master de cybersécurité - Institut polytechnique de Paris (IPP).",
+    "master_desc": "Pour finir (en beauté) mon cursus de cyber sécurité à Télécom SudParis. L'idée est de continuer en thèse en sécurité de l'IA.",
+    "master_link": "https://www.ip-paris.fr/education/masters/mention-informatique/master-year-2-cybersecurity",
+    "engineering_school": "Ingénieur généraliste dans le numérique - Télécom SudParis",
+    "engineering_school_desc": "Ecole d'ingénieur centrée sur les télécomunications, comme son nom l'indique. Je l'ai choisie afin d'avoir les bases nécessaires pour faire de la cyber sécurité, et je ne suis pas déçu :). Points notables: meilleur cours de la planète (peut-être même de l'univers?) sur les graphes. J'ai aussi eu la chance de participer au parcours recherche, avec son lot de pizzas, qui m'a permi de passer du temps sur des suujets comme de l'attaque de réseaux de neurones en graphe, ou encore sur l'empoisonnement de modèles. J'y ai aussi pu intégrer des fantastiques clubs techniques (cyber & code).",
+    "engineering_school_link": "https://www.telecom-sudparis.eu/",
+    "prepa": "Classe préparatoire MP* au Lycée Kleber",
+    "prepa_desc": "Points notables: veni vidi feci 5/2. Meilleurs professeurs de l'univers (information vérifiée et très objective). Longue vie au Grand Schaul.",
+    "prepa_link": "https://lycee-kleber.com.fr/presentation/",
+    "coursera": "Spécialisation apprentissage profond - Coursera",
+    "coursera_desc": "La question à ce poser est : \"Qui n'est pas passé par les magnifiques cours d'Andrew Ng pour apprendre l'IA?\"",
+    "coursera_link": "https://www.coursera.org/specializations/deep-learning",
+    "ibm": "Cours d'algorithmique quantique - IBM Quantum Learning",
+    "ibm_desc": "Si je deviens professeur un jour, il y a de grandes chances que je m'inspire de John Watrous. Ces cours sont compréhensibles, intéressants, complets, techniques, concis, bref, juste excellents. C'est un très bon complément à des livres plus théoriques vu que la pratique est mélée au cours, que du bonheur. J'attends des aussi bon cours avec pratique pour la physique des particules :)",
+    "ibm_link": "https://learning.quantum.ibm.com/",
+    "udemy": "Administrateur Kubernetes - Udemy",
+    "udemy_desc": "Même si je n'ai malheureusement pas pu finir le cours pour cause de temps, j'ai pu y apprendre les bases de l'utilisation de Kubernetes et du cloud de manière générale, ce qui me sauve grandement la vie aujourd'hui.",
+    "udemy_link": "https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/?persist_locale=&locale=fr_FR",
+    "pyg": "Cours sur les réseaux de neurones en graphe - Pytorch Geometric",
+    "pyg_desc": "Vive les graphes.",
+    "pyg_link": "https://github.com/AntonioLonga/PytorchGeometricTutorial",
+    "thales": "Stage de recherche en sécurité de l'IA - Thales (ThereSIS)",
+    "thales_desc": "Pour commencer mon année de césure sur les chapeaux de roues, j'ai choisi de découvrir ce qu'était la recherche dans une grande entreprise. Thales m'a gentiment accepté, et maintenant je suis un chercheur heureux qui passe ses journées à lire des papiers et à taper sur des grands modèles de langage qui n'ont rien demandé (personne n'a encore été blessé).",
+    "thales_link": "https://www.thalesgroup.com/fr",
+    "title": "Qui suis-je?",
+    "subtitle": "Aussi connu sous les noms _le magicien quantique, le chameau masqué, le fan2thermo, le crabe sacré, l'ingénieur nuages et tuyaux, le chef d'orchestre de baleine_, ou juste **Sckathach**. Je suis un étudiant de Télécom SudParis, et bientôt, un chercheur en IA!",
+    "connect": "Réseaux sociaux que j'utilise, rangés dans l'ordre exponentiel décroissant d'utilisation.",
+    "background": "Fan de mathématiques et de physique depuis toujours, je me suis naturellement tourné vers l'informatique, là où je peux passer mes journées à créer, et surtout, à casser. Pour casser des choses de manière légale, j'ai commencé la cyber sécurité :) Cependant, je me suis rendu compte que j'avais besoin de bien plus de mathématiques dans ma vie. Ayant découvert la sécurité de l'IA un peu plus tôt, j'ai vite compris que l'endroit où je serai le plus à l'aise était le domaine de l'IA. En plus de sa dose _infinie_ de mathématiques, je peux toujours m'amuser à créer et à casser des choses. Et il y a de la physique! Et il y a des graphes! C'est pour cela que j'ai choisi de faire une année de césure, il me fallait une année de travail intensif de mathématiques pour préparer mon futur doctorat.",
+    "interests": "Mes centres d'intérêts vont de la géopolitique aux fin fonds des trous noirs, mais en ce moment il est possible de résumer ce que je fais en un mot (deux en fait): l'**interprétabilité automatique.**"
+  },
+  "LocaleSwitcher": {
+    "locale": "{locale, select, fr {français} en {anglais} other {inconnu}}"
+  },
+  "Kards": {
+    "404_label": "CYBERSECURITE - IA - ALGORITHMIQUE QUANTIQUE",
+    "404_title": "404 CTF - Edition 2024",
+    "404_content": "J'ai enfin pris le temps de réécrire proprement les énoncés et les solutions, venez jeter un coup d'oeil !",
+    "riyad_title": "Riyad - Simple oasis ou nouveau centre du Monde ?",
+    "riyad_label": "GEOPOLITICS",
+    "riyad_content": "After years of doing analyses on my own, I've taken the plunge! I've written my first article on the Arab world, with a particular focus on Saudi Arabia and its Crown Prince Mohammed ben Salmane.",
+    "download": "Télécharger le PDF",
+    "learn_more": "En apprendre plus"
+  }
+}
