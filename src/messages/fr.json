@@ -7,7 +7,8 @@
     "home": "Accueil",
     "about": "A propos",
     "docs": "Docs",
-    "made_with": " Fait avec Material Tailwind."
+    "made_with": " Fait avec Material Tailwind.",
+    "pgp": "Télécharger clef PGP"
   },
   "About": {
     "trad_edu": "Education",
@@ -56,6 +57,7 @@
     "riyad_label": "GEOPOLITICS",
     "riyad_content": "After years of doing analyses on my own, I've taken the plunge! I've written my first article on the Arab world, with a particular focus on Saudi Arabia and its Crown Prince Mohammed ben Salmane.",
     "download": "Télécharger le PDF",
+    "signature": "Télécharger la signature",
     "learn_more": "En apprendre plus"
   }
 }

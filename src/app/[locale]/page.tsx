@@ -1,5 +1,6 @@
 "use client";
 import { Navbar, Footer } from "@/components";
+import CodeBlock from "@/components/code";
 import { useTranslations } from "next-intl";
 import { Typography } from "@material-tailwind/react";
 import { Kard } from "@/components/kard";
@@ -26,6 +27,7 @@ function Kards() {
         title: t("riyad_title"),
         content: t("riyad_content"),
         link: "/assets/articles/riyad.pdf",
+        signature: "/assets/articles/riyad.pdf.asc",
         pdf: true,
       },
       header_left: false,
@@ -74,6 +76,27 @@ function Hero() {
           </Typography>
         </div>
       </div>
+    </div>
+  );
+}
+function PGP() {
+  const pgpKey = `
+      mDMEZt9WuRYJKwYBBAHaRw8BAQdAhXvRbMovCT3Fsd4A1ExMCc3gtCUEL8rwq7aM
+      i3kBy/20NUxlIG1hZ2ljaWVuIHF1YW50aXF1ZSA8bGVtYWdpY2llbnF1YW50aXF1
+      ZUBnbWFpbC5jb20+iI4EExYKADYCGwMCF4AWIQQTi49X3zuMg5mwmiY3njq1Hu/1
+      KQUCZt9XvgQLCQgHBRUKCQgLBBYCAwECHgUACgkQN546tR7v9SlC2gEAj5bj/Ciy
+      uAM2aMvuJt89mW2WTuhMEuskNs5nSdO/cbcA/1F9JVo8S+vNeAbfIyS0kjcxxRDR
+      xJqhlLp2kmlQvxoJuDgEZt9WuRIKKwYBBAGXVQEFAQEHQD7EfNBllzbbWCF4+XFP
+      Y8wXHO+qSIefag4fHPN5f4s8AwEIB4h4BBgWCgAgFiEEE4uPV987jIOZsJomN546
+      tR7v9SkFAmbfVrkCGwwACgkQN546tR7v9SlbrgEApfF3rjPoJAGjfMbIhE4zESa0
+      26ykeFw8fEa8ZPXLvu0A/jhGA8vIQO89VL7uo5Q6xCgOzW95QC97XpzL/Za3l1EE 
+      =TQuu
+    `;
+
+  return (
+    <div>
+      <h2>PGP</h2>
+      <CodeBlock code={pgpKey} language="text" />
     </div>
   );
 }

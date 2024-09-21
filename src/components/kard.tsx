@@ -61,10 +61,11 @@ interface KardBody {
   title: string;
   content: React.ReactNode;
   link: string;
+  signature?: string;
   pdf?: boolean;
 }
 
-function KardBody({ label, title, content, link, pdf }: KardBody) {
+function KardBody({ label, title, content, link, signature, pdf }: KardBody) {
   const t = useTranslations("Kards");
   return (
     <>
@@ -79,11 +80,18 @@ function KardBody({ label, title, content, link, pdf }: KardBody) {
           {content}
         </Typography>
         {pdf ? (
-          <a href={link} className="inline-block" download>
-            <Button variant="text" className="flex items-center gap-2">
-              {t("download")}
-            </Button>
-          </a>
+          <>
+            <a href={link} className="inline-block" download>
+              <Button variant="text" className="flex items-center gap-2">
+                {t("download")}
+              </Button>
+            </a>
+            <a href={signature} className="inline-block" download>
+              <Button variant="text" className="flex items-center gap-2">
+                {t("signature")}
+              </Button>
+            </a>
+          </>
         ) : (
           <a href={link} className="inline-block">
             <Button variant="text" className="flex items-center gap-2">
