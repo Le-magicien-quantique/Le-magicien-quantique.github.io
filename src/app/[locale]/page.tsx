@@ -12,6 +12,15 @@ function Kards() {
   const t = useTranslations("Kards");
   const KARDS = [
     {
+      header: { image_path: "/assets/kards/migcg.png" },
+      body: {
+        label: t("migcg_label"),
+        title: t("migcg_title"),
+        content: t("migcg_content"),
+        link: "https://sckathach.github.io/mech-interp/exploring-adversarial-mi/",
+      },
+    },
+    {
       header: { image_path: "/assets/kards/logo404_2024.png" },
       body: {
         label: t("404_label"),
@@ -19,6 +28,7 @@ function Kards() {
         content: t("404_content"),
         link: "https://sckathach.github.io/404ctf/",
       },
+      header_left: false,
     },
     {
       header: { image_path: "/assets/logos/geopolitix.png" },
@@ -30,7 +40,6 @@ function Kards() {
         signature: "/assets/articles/riyad.pdf.asc",
         pdf: true,
       },
-      header_left: false,
     },
   ];
   return (
