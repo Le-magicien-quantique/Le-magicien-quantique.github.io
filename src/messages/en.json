@@ -55,7 +55,8 @@
     "agents_berkeley_desc": "Hacking LLM is cool, but hacking agents is cooler :)",
     "agents_berkeley_link": "https://llmagents-learning.org/f24",
     "hackathon_zama": "Zama FHE Hackathon",
-    "hackathon_zama_desc": "We (Thales, IMT Atlantique) finished 2nd proposing a FHE watermark method."
+    "hackathon_zama_desc": "We (Thales, IMT Atlantique) finished 2nd proposing a FHE watermark method.",
+    "download_cv": "Download PDF Resume"
   },
   "LocaleSwitcher": {
     "locale": "{locale, select, fr {French} en {English} other {Unknown}}"

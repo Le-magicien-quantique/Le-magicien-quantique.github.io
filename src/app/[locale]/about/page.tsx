@@ -2,6 +2,7 @@
 import React from "react";
 import {
   IconButton,
+  Button,
   Typography,
   Card,
   CardHeader,
@@ -88,6 +89,11 @@ function Whoami() {
             <T_ label="interests" />
           </div>
           <Connect />
+          <a href="/assets/cv.pdf" className="inline-block" download>
+              <Button variant="text" className="flex items-center gap-2">
+                <T_ label="download_cv" />
+              </Button>
+            </a>
         </div>
         <div className="flex justify-center  lg:justify-end">
           <Card className="shadow-none rounded-md bg-transparent">
