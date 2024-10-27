@@ -44,7 +44,18 @@
     "subtitle": "Aussi connu sous les noms _le magicien quantique, le chameau masqué, le fan2thermo, le crabe sacré, l'ingénieur nuages et tuyaux, le chef d'orchestre de baleine_, ou juste **Sckathach**. Je suis un étudiant de Télécom SudParis, et bientôt, un chercheur en IA!",
     "connect": "Réseaux sociaux que j'utilise, rangés dans l'ordre exponentiel décroissant d'utilisation.",
     "background": "Fan de mathématiques et de physique depuis toujours, je me suis naturellement tourné vers l'informatique, là où je peux passer mes journées à créer, et surtout, à casser. Pour casser des choses de manière légale, j'ai commencé la cyber sécurité :) Cependant, je me suis rendu compte que j'avais besoin de bien plus de mathématiques dans ma vie. Ayant découvert la sécurité de l'IA un peu plus tôt, j'ai vite compris que l'endroit où je serai le plus à l'aise était le domaine de l'IA. En plus de sa dose _infinie_ de mathématiques, je peux toujours m'amuser à créer et à casser des choses. Et il y a de la physique! Et il y a des graphes! C'est pour cela que j'ai choisi de faire une année de césure, il me fallait une année de travail intensif de mathématiques pour préparer mon futur doctorat.",
-    "interests": "Mes centres d'intérêts vont de la géopolitique aux fin fonds des trous noirs, mais en ce moment il est possible de résumer ce que je fais en un mot (deux en fait): l'**interprétabilité automatique.**"
+    "interests": "Mes centres d'intérêts vont de la géopolitique aux fin fonds des trous noirs, mais en ce moment il est possible de résumer ce que je fais en un mot (deux en fait): l'**interprétabilité automatique.**",
+    "aisf": "AI Safety Fundamentals - cours d'alignement de l'IA",
+    "aisf_desc": "Le monde de la sécurité de l'IA est extrêmement vaste. Des questions éthiques soulevées par l'IA générative aux risques de perte de contrôle d'une superintelligence, il est facile de se perdre dans ce domaine en pleine expansion. Heureusement, il y a Blue Dot ! Cette association propose 12 semaines de cours pour faire le tour de ce nouveau monde. De mon point de vue, la partie la plus intéressante du cours est constituée par les discussions hebdomadaires en petits groupes. C'était une expérience très enrichissante de pouvoir parler avec des personnes de différents pays et d'horizons complètement différents. Je figure d'ailleurs sur la liste des meilleurs projets : https://aisafetyfundamentals.com/projects/ (hihi).",
+    "aisf_link": "https://aisafetyfundamentals.com/alignment/",
+    "arena": "ARENA : Accelerateur de recherche en sécurité de l'IA (_traduction approximative..._)",
+    "arena_desc": "La suite logique aux cours fondamentaux de Blue Dot : 4 modules technique sur l'alignement d'IA. Plus précisement, je m'attarde sur la partie interprétabilité (Transfomer Lens - SAE Lens), et sur la partie apprentissage renforcé (RL).",
+    "arena_link": "https://www.arena.education/",
+    "agents_berkeley": "Agents de grands modèles de langage - UC Berkeley",
+    "agents_berkeley_desc": "Casser des LLM c'est cool, mais casser des agents c'est encore mieux :)",
+    "agents_berkeley_link": "https://llmagents-learning.org/f24",
+    "hackathon_zama": "Hackathon Zama FHE",
+    "hackathon_zama_desc": "Nous (Thales, IMT Atlantique) avons fini 2ème en proposant une méthode de watermark FHE."
   },
   "LocaleSwitcher": {
     "locale": "{locale, select, fr {français} en {anglais} other {inconnu}}"

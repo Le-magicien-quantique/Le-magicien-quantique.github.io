@@ -147,14 +147,12 @@ function InformationSection() {
   const t = useTranslations("About");
   const TRAD_EDUCATION = [
     {
-      icon: AcademicCapIcon,
       title: t("master"),
       date: "2024-2026",
       children: t("master_desc"),
       link: t("master_link"),
     },
     {
-      icon: AcademicCapIcon,
       title: t("engineering_school"),
       date: "2022-2026",
       children: t("engineering_school_desc"),
@@ -162,7 +160,6 @@ function InformationSection() {
       bgcolor: color.Grad2,
     },
     {
-      icon: AcademicCapIcon,
       title: t("prepa"),
       date: "2019-2022",
       children: t("prepa_desc"),
@@ -172,14 +169,32 @@ function InformationSection() {
 
   const PERSO_EDUCATION = [
     {
-      icon: FireIcon,
+      title: t("aisf"),
+      date: "2024",
+      children: t("aisf_desc"),
+      link: t("aisf_link"),
+    },
+    {
+      title: t("arena"),
+      date: "2024 - PRESENT",
+      children: t("arena_desc"),
+      link: t("arena_link"),
+      bgcolor: color.Grad2,
+    },
+    {
+      title: t("agents_berkeley"),
+      date: "2024 - PRESENT",
+      children: t("agents_berkeley_desc"),
+      link: t("agents_berkeley_link"),
+      bgcolor: color.Grad3,
+    },
+    {
       title: t("coursera"),
       date: "2023",
       children: t("coursera_desc"),
       link: t("coursera_link"),
     },
     {
-      icon: FireIcon,
       title: t("ibm"),
       date: "2023 - PRESENT",
       children: t("ibm_desc"),
@@ -187,7 +202,6 @@ function InformationSection() {
       bgcolor: color.Grad3,
     },
     {
-      icon: FireIcon,
       title: t("udemy"),
       date: "2023",
       children: t("udemy_desc"),
@@ -195,7 +209,6 @@ function InformationSection() {
       bgcolor: color.Grad2,
     },
     {
-      icon: FireIcon,
       title: t("pyg"),
       date: "2024 - PRESENT",
       children: t("pyg_desc"),
@@ -205,7 +218,6 @@ function InformationSection() {
 
   const EXPERIENCE = [
     {
-      icon: BriefcaseIcon,
       title: t("thales"),
       date: "2024 - PRESENT",
       children: t("thales_desc"),

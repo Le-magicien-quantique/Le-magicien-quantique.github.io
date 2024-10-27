@@ -44,7 +44,18 @@
     "subtitle": "Aka _the quantum warlock, the masked camel, the fanOfThermodynamics, the pipe and clouds engineer, the whale orchestra conductor_, or just **Sckathach**. I'm a french student at Télécom SudParis, and soon, a ML(4SEC) researcher!",
     "connect": "Social media I use arranged in descending exponential order:",
     "background": "Fond of mathematics and physics with a strong interest in computer sciences, I choose an engineering path, to be able to create things, and most importantly, break things. I started cybersecurity at Télécom SudParis, where I enjoyed crafting and toying with technology. However, I found that I needed more mathematics in my life. As I discovered AI security a bit earlier, I knew the best place for me was in the AI field: with loads of mathematics everywhere. And I can still create and destroy things! And there is also physics! And there are also graphs! That is why I am currently in a gap year, so I can tryhard mathematics and AI before my PhD.",
-    "interests": "My interests range from geopolitics to the depth of spinning blackholes, but I'm currently focused on the thing I find the craziest at the moment: **Mechanistic Interpretability**. "
+    "interests": "My interests range from geopolitics to the depth of spinning blackholes, but I'm currently focused on the thing I find the craziest at the moment: **Mechanistic Interpretability**. ",
+    "aisf": "AI Safety Fundamentals - AI Alignment Course",
+    "aisf_desc": "The world of AI safety is extremely vast, from the ethical issues raised by generative AI to the risks of losing control of a super-intelligence, it's easy to get lost in this rapidly expanding field. Fortunately, there's Blue Dot! This association is offering 12 weeks of courses to take you on a tour of this new world. From my point of view, the most interesting part of the course is the weekly discussions in small groups. It was a very enriching experience to be able to talk to people from different countries and with completely different backgrounds. Incidentally, I'm on the list of best projects: https://aisafetyfundamentals.com/projects/ (hehe).",
+    "aisf_link": "https://aisafetyfundamentals.com/alignment/",
+    "arena": "Alignment Research Engineer Accelerator",
+    "arena_desc": "The logical follow-up to the fundamental Blue Dot courses: 4 technical modules on AI alignment. More specifically, I focus on the interpretability part (Transfomer Lens - SAE Lens), and on the reinforcement learning part (RL)",
+    "arena_link": "https://www.arena.education/",
+    "agents_berkeley": "LLM Agents MOOC - UC Berkeley",       
+    "agents_berkeley_desc": "Hacking LLM is cool, but hacking agents is cooler :)",
+    "agents_berkeley_link": "https://llmagents-learning.org/f24",
+    "hackathon_zama": "Zama FHE Hackathon",
+    "hackathon_zama_desc": "We (Thales, IMT Atlantique) finished 2nd proposing a FHE watermark method."
   },
   "LocaleSwitcher": {
     "locale": "{locale, select, fr {French} en {English} other {Unknown}}"

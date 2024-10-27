@@ -3,7 +3,6 @@ import {
   CardHeader,
   CardBody,
   Typography,
-  IconButton,
 } from "@material-tailwind/react";
 import "./styles.css";
 
@@ -15,7 +14,6 @@ export enum color {
   Grad5 = "carrara-500",
 }
 export interface InfoCardProps {
-  icon: React.ElementType;
   title: string;
   date: string;
   children: React.ReactNode;
@@ -24,7 +22,6 @@ export interface InfoCardProps {
 }
 
 export function InfoCard({
-  icon: Icon,
   title,
   date,
   children,
@@ -48,12 +45,7 @@ export function InfoCard({
             <a href={link}>{title}</a>
           </Typography>
         </div>
-        <IconButton
-          className="flex-shrink-0 pointer-events-none"
-          ripple={false}
-        >
-          <Icon className="h-5 w-5" strokeWidth={2} />
-        </IconButton>
+       
       </CardHeader>
       <CardBody className="grid justify-start !px-3.5 pt-2">
         <Typography className="font-normal !text-gray-700">
@@ -65,3 +57,10 @@ export function InfoCard({
 }
 
 export default InfoCard;
+
+//  <IconButton
+//           className="flex-shrink-0 pointer-events-none"
+//           ripple={false}
+//         >
+//           <Icon className="h-5 w-5" strokeWidth={2} />
+//         </IconButton>
