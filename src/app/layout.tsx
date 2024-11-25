@@ -1,9 +1,15 @@
-import {ReactNode} from 'react';
 
-type Props = {
-  children: ReactNode;
-};
-
-export default function RootLayout({children}: Props) {
-  return children;
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="en">
+      <body>
+        {/* Layout UI */}
+        <main>{children}</main>
+      </body>
+    </html>
+  )
 }
