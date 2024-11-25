@@ -13,6 +13,7 @@ export function Footer() {
     { label: t("home") },
     { label: t("about"), link: `/${currentLocale}/about` },
     { label: t("docs"), link: `https://sckathach.github.io`, blank: true },
+    { label: t("pgp"), link: "/lemagicienquantique.asc", blank: true }
   ];
   const signature = "/lemagicienquantique.asc";
   return (
