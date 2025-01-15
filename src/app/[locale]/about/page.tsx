@@ -82,6 +82,9 @@ function Whoami() {
                 <div className="mb-5">
                   <T_ label="interests" />
                 </div>
+                <div className="mb-5">
+                  <T_ label="paper" />
+                </div>
                 <Connect />
                 <a href="/assets/cv.pdf" className="inline-block" download>
                     <Button variant="text" className="flex items-center gap-2">
@@ -128,11 +131,18 @@ function InformationSection() {
   const EXPERIENCE = [
     {
       title: t("thales"),
-      date: "2024 - PRESENT",
+      date: "Jul - Dec 2024",
       children: t("thales_desc"),
       link: t("thales_link"),
       bgcolor: color.Grad3,
     },
+    {
+      title: t("hackademint"),
+      date: "2022-2024",
+      children: t("hackademint_desc"),
+      link: t("hackademint_link"),
+      bgcolor: color.Grad1
+    }
   ];
 
   return (
