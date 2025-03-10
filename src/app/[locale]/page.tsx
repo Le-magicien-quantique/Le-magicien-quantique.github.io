@@ -12,6 +12,16 @@ function Kards() {
   const t = useTranslations("Kards");
   const KARDS = [
     {
+      header: { image_path: "/assets/kards/ssr_schema_screenshot.png" },
+      body: {
+        label: t("ssr_label"),
+        title: t("ssr_title"),
+        content: t("ssr_content"),
+        link: "https://sckathach.github.io/mech-interp/subspace-rerouting/",
+      },
+      header_left: false,
+    },
+    {
       header: { image_path: "/assets/kards/migcg.png" },
       body: {
         label: t("migcg_label"),

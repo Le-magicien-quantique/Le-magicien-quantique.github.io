@@ -63,6 +63,7 @@ function Connect() {
 }
 
 function Whoami() {
+  const t = useTranslations("About");
   return (
     <>
       <section className="relative w-full">
@@ -86,7 +87,7 @@ function Whoami() {
                   <T_ label="paper" />
                 </div>
                 <Connect />
-                <a href="/assets/cv.pdf" className="inline-block" download>
+                <a href={t("cv")} className="inline-block" download>
                     <Button variant="text" className="flex items-center gap-2">
                       <T_ label="download_cv" />
                     </Button>
@@ -130,6 +131,13 @@ function InformationSection() {
 
   const EXPERIENCE = [
     {
+      title: t("inria"),
+      date: "Mar - May 2025",
+      children: t("inria_desc"),
+      link: t("inria_link"),
+      bgcolor: color.Grad1,
+    },
+    {
       title: t("thales"),
       date: "Jul - Dec 2024",
       children: t("thales_desc"),
@@ -141,7 +149,7 @@ function InformationSection() {
       date: "2022-2024",
       children: t("hackademint_desc"),
       link: t("hackademint_link"),
-      bgcolor: color.Grad1
+      bgcolor: color.Grad2
     }
   ];
 
