@@ -12,8 +12,8 @@
   },
   "About": {
     "trad_edu": "Education",
-    "projects": "Cools projects",
-    "projects_desc": "&rarr; [**GitHub**](https://github.com/Sckathach) or [**front page**](/en)",
+    "projects": "Papers",
+    "projects_desc": "[**Using Mechanistic Interpretability to Craft Adversarial Attacks against Large Language Models**](https://arxiv.org/abs/2503.06269) - _Winninger T., Addad B., Kapusta K._ (mars 2025)",
     "experience": "Experience",
     "skills": "Cool logos to add colors to this page",
     "skills_desc": "I've put here a few logos of things I use, or *get by with*. Don't worry too much about suspicious ones.",
