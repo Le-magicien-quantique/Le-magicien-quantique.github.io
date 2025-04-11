@@ -6,7 +6,8 @@
   "Footer": {
     "home": "Home",
     "about": "About",
-    "docs": "Docs",
+    "posts": "Blog",
+    "talks": "Talks",
     "made_with": " Made with Material Tailwind.",
     "pgp": "Download PGP key"
   },

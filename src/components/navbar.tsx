@@ -47,7 +47,8 @@ export function Navbar() {
   const NAV_MENU = [
     { label: t("home") },
     { label: t("about"), link: `/${currentLocale}/about` },
-    { label: t("docs"), link: `https://sckathach.github.io`, blank: true },
+    { label: t("posts"), link: `https://sckathach.github.io`, blank: true },
+    { label: t("talks"), link: `https://sckathach.github.io/talks`, blank: true },
   ];
 
   React.useEffect(() => {
